@@ -27,6 +27,9 @@ const app = fastify({ logger })
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta charset="utf-8" />
             <meta name="viewport" content="initial-scale=1, width=device-width" />
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&family=Gemunu+Libre:wght@200..800&display=swap">
             ${cssLinksFromAssets(assetsImport, "client")}
             ${css}
         </head>

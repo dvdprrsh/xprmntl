@@ -1,4 +1,5 @@
 import { Easing } from "@mui/material";
+import { TypographyStyleOptions } from "@mui/material/styles/createTypography";
 import { LiteralUnion } from "type-fest";
 
 declare module "@mui/material/styles" {
@@ -16,6 +17,9 @@ declare module "@mui/material/styles" {
     animations: {
       easing: Easing;
       fadeIn(options?: AnimationOptions): string;
+    };
+    typography: {
+      fullWidth: TypographyStyleOptions;
     };
   }
 
